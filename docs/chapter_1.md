@@ -1,12 +1,3 @@
-# Intro
-
-The idea is just to provide some motivation to read the chapter, and internalise it a bit. By
-talking about the chapter contents, hopefully they’ll stick a bit better… for that reason, it’d be
-good if everyone can ask a question or make a point (even if you haven’t read the chapter!).
-
-- How much reading is reasonable for a fortnight?
-- Is there anything that people especially want to get out of these sessions?
-
 # Type deduction
 
 This is basically just going to be the 'Things to Remember' from the chapter.
