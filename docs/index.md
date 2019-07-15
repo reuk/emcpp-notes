@@ -9,3 +9,4 @@ This site contains notes from the book 'Effective Modern C++' by Scott Meyers.
 5. [Rvalue References, Move Semantics, and Perfect Forwarding](chapter_5.md)
 6. [Lambda Expressions](chapter_6.md)
 7. [The Concurrency API](chapter_7.md)
+8. [Tweaks](chapter_8.md)
