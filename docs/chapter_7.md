@@ -2,7 +2,7 @@
 
 ## Prefer task-based programming to thread-based
 
-If you want to run some work asynchronously, you have two basic choices, `future` and `async`:
+If you want to run some work asynchronously, you have two basic choices, `thread` and `async`:
 
 ```
 auto doWork = [] { /* ... */ }; // some async task
