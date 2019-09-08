@@ -1,4 +1,6 @@
-# Effective Modern C++ (Scott Meyers)
+# Books
+
+## Effective Modern C++ (Scott Meyers)
 
 1. [Deducing Types](emcpp/chapter_1.md)
 2. [`auto`](emcpp/chapter_2.md)
@@ -8,3 +10,7 @@
 6. [Lambda Expressions](emcpp/chapter_6.md)
 7. [The Concurrency API](emcpp/chapter_7.md)
 8. [Tweaks](emcpp/chapter_8.md)
+
+## C++17 in Detail (Bartłomiej Filipek)
+
+1. [Removed or Fixed Language Features](cppdeets/chapter_2.md)
