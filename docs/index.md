@@ -14,4 +14,6 @@
 ## C++17 in Detail (Bartłomiej Filipek)
 
 1. [Removed or Fixed Language Features](cppdeets/chapter_2.md)
-1. [Language Clarification](cppdeets/chapter_3.md)
+2. [Language Clarification](cppdeets/chapter_3.md)
+3. [General Language Features](cppdeets/chapter_4.md)
+4. [Templates](cppdeets/chapter_5.md)
