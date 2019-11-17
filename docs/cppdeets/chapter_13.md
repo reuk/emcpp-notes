@@ -112,5 +112,7 @@ enum. `status` returns the current file permissions (use `operator&` to extract 
 bits) and `permissions` can replace/add/remove permissions on a specific file. Again, the full
 suite of POSIX permissions is not available on Windows.
 
-TODO: check whether any of this stuff is actually supported on macOS, and if so, which SDK is
-required.
+## Platform support
+
+Recent clangs/gccs support filesystem, and it should be supported on Windows too, however macOS only
+supports it in SDK 10.15+, so we can't start using it there.
