@@ -23,3 +23,5 @@
 8. [`any`](cppdeets/chapter_9.md)
 9. [`string_view`](cppdeets/chapter_10.md)
 10. [String Conversion](cppdeets/chapter_11.md)
+11. [Searchers & String Matching](cppdeets/chapter_12.md)
+12. [Filesystem](cppdeets/chapter_13.md)
