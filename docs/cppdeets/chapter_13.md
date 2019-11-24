@@ -91,6 +91,23 @@ algorithms).
 
 Lots of getters, all fairly self-explanatory.
 
+```cpp
+namespace fs = std::filesystem;
+
+auto sumFileSizes (const fs::path& p)
+{
+    const auto range = fs::recursive_directory_iterator { p };
+    return std::accumulate (begin (range), end (range), 0, [] (auto sum, const auto& entry)
+    {
+        return sum + (entry.is_regular_file() ? entry.file_size() : 0);
+    });
+}
+```
+
+Note that calling member functions on the file entry is likely to be faster than calling the
+non-member functions from the std::filesystem namespace, because the runtime can cache the data
+appropriately while iterating.
+
 ### Non-member Utilities
 
 There are some non-member functions that can query properties about a `path`, without needing to
